@@ -12,7 +12,9 @@ import {
   PassGet,
   JobPortal,
   placeicon,
+  parking,
   HomeBeing,
+  Data,
   huntly,
   Reliance,
   DocLock,
@@ -91,6 +93,8 @@ import {
   SiNodedotjs,
   SiHtml5,
   SiCss3,
+  SiPowerbi,
+  SiRstudio,
 } from "react-icons/si";
 
 import {
@@ -108,7 +112,7 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "#";
+export const resumeLink = "https://drive.google.com/file/d/1hJ02RZQ3F2Rwx_yiIJM9AYU0DxGWTK31/view?usp=share_link";
 export const repoLink = "https://github.com/rujulsalunkhe/RujulSalunkhe-portfolio";
 
 export const callToAction = "https://www.linkedin.com/in/rujul-salunkhe/";
@@ -296,19 +300,19 @@ export const skills = [
         icon: SiJquery,
         name: "jQuery",
       },
-      {
-        id: "f-8",
-        icon: SiGraphql,
-        name: "GraphQL",
-      },
+      // {
+      //   id: "f-8",
+      //   icon: SiGraphql,
+      //   name: "GraphQL",
+      // },
 
       {
-        id: "f-10",
+        id: "f-8",
         icon: SiIpfs,
         name: "IPFS",
       },
       {
-        id: "f-10",
+        id: "f-9",
         icon: SiLinuxfoundation,
         name: "Hyperledger Fabric",
       },
@@ -408,13 +412,15 @@ export const experiences = [
         duration: "December 2024 - Present",
         content: [
           {
+            text: "Developed scalable workflows and key processes to maintain the codebase for the INR 75,000 Cr New Energy Initiative, with a focus on digital integration and operational efficiency enhancement.",
+            link: "",
+          },
+
+          {
             text: "Integrated APIs for real-time data updates and utilized SQL for seamless backend integration, optimizing data management and application performance.",
             link: "",
           },
-          {
-            text: "Developed scalable workflows and key processes to ensure the maintainability of the codebase.",
-            link: "",
-          },
+
           {
             text: "Designed and built responsive web applications using React.js, enhancing user experience and interactivity.",
             link: "",
@@ -601,6 +607,59 @@ export const projects = [
     content:
       "This project is a responsive clone of Twitter's user interface built using Tailwind CSS. The goal of this clone is to replicate the design and layout of the Twitter platform while applying modern web development practices such as utility-first CSS. Features: Responsive layout that adapts to various screen sizes. Clean and structured code using Tailwind CSS. Reusable components designed for scalability.",
     stack: [
+
+      {
+        id: "icon-1",
+        icon: SiJavascript,
+        name: "JavaScript"
+      },
+      {
+        id: "icon-2",
+        icon: SiHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: SiTailwindcss,
+        name: "TailwindCSS"
+      },
+    ],
+  },
+  {
+    id: "project-4",
+    title: "Data Visualization and Analytics in Diabetes",
+    github: "",
+    link: "https://drive.google.com/drive/folders/1yyOMftpdOagWLIMsRXA02oCoh-f4VwLL?usp=share_link",
+    image: Data,
+    content:
+      "Built a logistic regression model to predict diabetes risk, evaluated using cross-validation and performance metrics such as accuracy and AUC-ROC to ensure robustness and reliability. The process involved collecting and cleaning data, followed by feature engineering to enhance model performance. Techniques like missing value imputation, normalization, and outlier detection were applied.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiPowerbi,
+        name: "PowerBI"
+      },
+      {
+        id: "icon-2",
+        icon: SiRstudio,
+        name: "RStudio"
+      },
+      {
+        id: "icon-3",
+        icon: SiPython,
+        name: "Python"
+      },
+    ],
+  },
+  {
+    id: "project-4",
+    title: "Automated Parking Slot Indicator",
+    github: "",
+    link: "https://drive.google.com/drive/folders/1Dlh2cMami-46tkpwu_3ck2ZgJQodw-Jd?usp=share_link",
+    image: parking,
+    content:
+      "Developed an Automated Parking Slot Indicator system using sensor networks to monitor and display real-time parking space availability. The system streamlined navigation for drivers, optimized space utilization, and enhanced safety within parking facilities.",
+    stack: [
       {
         id: "icon-1",
         icon: SiJavascript,
@@ -621,8 +680,8 @@ export const projects = [
   {
     id: "project-5",
     title: "HomeBeing",
-    github: "",
-    link: "https://github.com/rujulsalunkhe/MiniProject_SEM-4",
+    github: "https://github.com/rujulsalunkhe/MiniProject_SEM-4",
+    link: "",
     image: HomeBeing,
     content:
       "A web application that connects buyers and sellers, offering a seamless platform for property listings, search, and transactions. HomeBeing features a user-friendly interface and search filters, providing a comprehensive solution for furnishing properties.",

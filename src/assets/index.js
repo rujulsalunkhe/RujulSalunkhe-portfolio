@@ -34,6 +34,8 @@ import PassGet from "./PassGet.png";
 import JobPortal from "./JobPortal.png";
 import placeicon from "./place-icon.svg";
 import HomeBeing from "./HomeBeing.jpg";
+import parking from "./parking.jpg.webp";
+import Data from "./Data.png";
 import huntly from "./huntly.png";
 import Reliance from "./Reliance.png";
 import DocLock from "./DocLock.png";
@@ -85,7 +87,9 @@ export {
   profilePic,
   JobPortal,
   placeicon,
+  parking,
   HomeBeing,
+  Data,
   huntly,
   Reliance,
   DocLock,
