@@ -914,7 +914,7 @@ export const aboutMe = {
   name: "Rujul Salunkhe",
   githubUsername: 'rujulsalunkhe',
   tagLine: "Intern @Reliance Industries Limited | Sr. Operations Officer @Tinkerer's Lab, ECS, VESIT | Vivekanand Education Society's Institute Of Technology ",
-  intro: "A software developer from India, always busy improving my craft or pondering over the next big idea."
+  intro: "A software developer from India, constantly honing my skills and brainstorming the next groundbreaking idea."
 }
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
