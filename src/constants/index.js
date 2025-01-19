@@ -285,11 +285,11 @@ export const skills = [
         icon: SiExpress,
         name: "ExpressJS",
       },
-      {
-        id: "f-5",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
+      // {
+      //   id: "f-5",
+      //   icon: SiBootstrap,
+      //   name: "Bootstrap",
+      // },
       {
         id: "f-6",
         icon: SiTailwindcss,
@@ -331,11 +331,7 @@ export const skills = [
         icon: SiMicrosoftazure,
         name: "Azure",
       },
-      {
-        id: "t-2",
-        icon: SiMysql,
-        name: "MySQL",
-      },
+      
       {
         id: "t-3",
         icon: SiPostman,
@@ -558,6 +554,32 @@ export const projects = [
     ],
   },
   {
+    id: "project-4",
+    title: "Data Visualization and Analytics in Diabetes",
+    github: "",
+    link: "https://drive.google.com/drive/folders/1yyOMftpdOagWLIMsRXA02oCoh-f4VwLL?usp=share_link",
+    image: Data,
+    content:
+      "Built a logistic regression model to predict diabetes risk, evaluated using cross-validation and performance metrics such as accuracy and AUC-ROC to ensure robustness and reliability. The process involved collecting and cleaning data, followed by feature engineering to enhance model performance. Techniques like missing value imputation, normalization, and outlier detection were applied.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiPowerbi,
+        name: "PowerBI"
+      },
+      {
+        id: "icon-2",
+        icon: SiRstudio,
+        name: "RStudio"
+      },
+      {
+        id: "icon-3",
+        icon: SiPython,
+        name: "Python"
+      },
+    ],
+  },
+  {
     id: "project-3",
     title: "JobPortal",
     github: "https://github.com/rujulsalunkhe/JobPortal-FullStack",
@@ -625,32 +647,7 @@ export const projects = [
       },
     ],
   },
-  {
-    id: "project-4",
-    title: "Data Visualization and Analytics in Diabetes",
-    github: "",
-    link: "https://drive.google.com/drive/folders/1yyOMftpdOagWLIMsRXA02oCoh-f4VwLL?usp=share_link",
-    image: Data,
-    content:
-      "Built a logistic regression model to predict diabetes risk, evaluated using cross-validation and performance metrics such as accuracy and AUC-ROC to ensure robustness and reliability. The process involved collecting and cleaning data, followed by feature engineering to enhance model performance. Techniques like missing value imputation, normalization, and outlier detection were applied.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiPowerbi,
-        name: "PowerBI"
-      },
-      {
-        id: "icon-2",
-        icon: SiRstudio,
-        name: "RStudio"
-      },
-      {
-        id: "icon-3",
-        icon: SiPython,
-        name: "Python"
-      },
-    ],
-  },
+  
   {
     id: "project-4",
     title: "Automated Parking Slot Indicator",
