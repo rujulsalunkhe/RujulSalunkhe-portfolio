@@ -58,9 +58,13 @@ const Footer = () => (
       </div>
     </div>
     <div className="text-center font-poppins font-normal text-dimWhite text-xs sm:text-sm pb-4">
-      <p>
-        
-      </p>
+    <p className="mt-[-20px] mb-[10px]">
+       Let me know how we can work together at &nbsp;
+        <a href="mailto:salunkhe.rujul@gmail.com" className="text-teal-200">
+         salunkhe.rujul@gmail.com
+        </a>.
+</p>
+
     </div>
   </footer>
 );

@@ -31,6 +31,7 @@ import {
   ethforall,
   twitter,
   x,
+  google,
 } from "../assets";
 
 import {
@@ -377,11 +378,11 @@ export const skills = [
         icon: SiStripe,
         name: "Stripe",
       },
-      {
-        id: "t-12",
-        icon: SiSlack,
-        name: "Slack",
-      },
+      // {
+      //   id: "t-12",
+      //   icon: SiSlack,
+      //   name: "Slack",
+      // },
       {
         id: "t-13",
         icon: SiDocker,
@@ -902,7 +903,7 @@ export const extraCurricular = [
         link: "",
       },
     ],
-    logo: genesis,
+    logo: google,
   },
   {
     id: 4,
