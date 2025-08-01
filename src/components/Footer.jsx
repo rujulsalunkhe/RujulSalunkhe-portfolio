@@ -4,7 +4,7 @@ import { socialMedia, aboutMe } from "../constants";
 import { profilePic } from "../assets";
 import { layout } from "../style";
 import { resumeLink, repoLink } from "../constants";
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 
 const Footer = () => (
   <footer id="contactMe" className="bg-gray-900 sm:px-16 px-6">
@@ -37,13 +37,13 @@ const Footer = () => (
         <div className="grid grid-cols-2">
           {/* styles is a prop */}
           <a href={resumeLink} target="_blank">
-            <Button styles="mt-10 mr-3 inline-flex items-center justify-center" text="Resume" icon={AiFillGithub} />
+            <Button styles="mt-10 mr-3 inline-flex items-center justify-center" text="Resume" icon={AiFillMail} />
           </a>
           <a href={repoLink} target="_blank">
             <Button
               styles="mt-10 inline-flex items-center justify-center"
-              text="Star"
-              icon={AiFillGithub}
+              text="LinkedIn"
+              icon={AiFillLinkedin}
             />
           </a>
         </div>

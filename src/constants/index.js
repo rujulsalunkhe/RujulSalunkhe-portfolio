@@ -44,6 +44,8 @@ import {
   AiOutlineGitlab,
 } from "react-icons/ai";
 
+import invexa from "../assets/invexa.png";
+
 import {
   SiDjango,
   SiJavascript,
@@ -113,8 +115,8 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1hJ02RZQ3F2Rwx_yiIJM9AYU0DxGWTK31/view?usp=share_link";
-export const repoLink = "https://github.com/rujulsalunkhe/RujulSalunkhe-portfolio";
+export const resumeLink = "https://drive.google.com/file/d/1exOP7FyHsZUjliGRRlNn-L1jW8o9tQam/view?usp=sharing";
+export const repoLink = "https://www.linkedin.com/in/rujul-salunkhe";
 
 export const callToAction = "https://www.linkedin.com/in/rujul-salunkhe/";
 
@@ -400,13 +402,40 @@ export const skills = [
 // Add your current/past professional work experience here
 export const experiences = [
   {
+    organisation: "Invexa – Electrolyte Solutions, Mumbai, India",
+    logo: invexa,
+    link: "https://play.google.com/store/apps/details?id=com.electrolytesoln.invexa",
+    positions: [
+      {
+        title: "Software Developer",
+        duration: "January 2025 – Present",
+        content: [
+          {
+            text: "Developed AI-powered chatbot in Flutter/Dart, integrating Wit.ai for NLP to enable technicians to receive instant troubleshooting requirements.",
+            link: "",
+          },
+
+          {
+            text: "Implemented stock/inventory management using Supabase (PostgreSQL) backend, and designed PDF invoice generation with automated email dispatch and unique, tamper-proof numbering and used SharedPreferences for offline caching and multilingual support.",
+            link: "",
+          },
+
+          {
+            text: "Integrated with the existing CRM, enabling bidirectional customer and billing data flow, streamlining workflows, and boosting operational efficiency and productivity.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
     organisation: "Reliance Industries Limited, Navi Mumbai, India",
     logo: Reliance,
     link: "https://www.ril.com",
     positions: [
       {
         title: "SDE Intern",
-        duration: "December 2024 - Present",
+        duration: "December 2024 - February 2025",
         content: [
           {
             text: "Developed scalable workflows and key processes to maintain the codebase for the INR 75,000 Cr New Energy Initiative, with a focus on digital integration and operational efficiency enhancement.",
@@ -737,32 +766,6 @@ export const projects = [
       },
     ],
   },
-  {
-    id: "project-7",
-    title: "Personal portfolio",
-    github: "https://github.com/rujulsalunkhe/RujulSalunkhe-portfolio",
-    link: "",
-    image: portfolio,
-    content:
-      "A personal portfolio website built using React and Tailwind CSS, showcasing my projects, skills, and achievements. This project features a responsive design and interactive components, providing an engaging user experience.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS"
-      },
-      {
-        id: "icon-3",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-    ],
-  },
 
 ];
 
@@ -970,7 +973,7 @@ export const socialMedia = [
 export const aboutMe = {
   name: "Rujul Salunkhe",
   githubUsername: 'rujulsalunkhe',
-  tagLine: "Intern @Reliance Industries Limited | Sr. Operations Officer @Tinkerer's Lab, ECS, VESIT | Vivekanand Education Society's Institute Of Technology ",
+  tagLine: "Blockchain Web3 and Gen Ai Engineer | Fullstack Developer | Ex-Intern @RIL, Ex-AppDev @Invexa | AI Agents | Hyperledger | VESIT'26",
   intro: "A software developer from India, constantly honing my skills and brainstorming the next groundbreaking idea."
 }
 
